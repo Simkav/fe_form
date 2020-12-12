@@ -7,9 +7,9 @@
   align-items: center;
   justify-content: center;
   color: #696a6e;
+  font-family: "Roboto", sans-serif;
 }
 .form-body {
-  font-family: "Roboto", sans-serif;
   min-width: 300px;
   background-color: #f2f3f7;
   padding: 20px;
@@ -17,7 +17,7 @@
 .hr {
   background-color: grey;
   height: 4px;
-  width: 35%;
+  width: 30%;
 }
 .register {
   font-size: 1.4em;
@@ -35,18 +35,33 @@
   display: flex;
   justify-content: space-around;
 }
-.form-names > .form-input:last-child{
+.form-names > .form-input:last-child {
   max-width: 42%;
 }
-.form-names > .form-input:first-child{
+.form-names > .form-input:first-child {
   max-width: 50%;
 }
-.form > .form-input{
+.form > .form-input {
   margin: 20px auto;
   display: block;
   width: 97%;
 }
-.form-input{
+.form-input {
   min-height: 30px;
   padding: 8px;
+}
+.link {
+  text-decoration: none;
+  color: #56ae57;
+}
+.btn {
+  padding: 10px;
+  display: block;
+  width: 98%;
+  min-height: 30px;
+  margin: 10px auto;
+  background-color: #56ae57;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6em;
 }
