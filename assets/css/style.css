@@ -35,10 +35,10 @@
   display: flex;
   justify-content: space-around;
 }
-.form-names > .form-input:last-child {
+.form-first-name {
   max-width: 43%;
 }
-.form-names > .form-input:first-child {
+.form-last-name {
   max-width: 50%;
 }
 .form > .form-input {
